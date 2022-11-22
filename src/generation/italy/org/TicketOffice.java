@@ -14,7 +14,7 @@ public class TicketOffice {
 		int age = sc.nextInt();
 		
 		try {			
-			Ticket ticket = new Ticket(km, age);
+			Ticket ticket = new Ticket(km, age, true);
 			System.out.println(ticket);
 			System.out.println(ticket.getPrice() + "€");
 		} catch(Exception e) {
